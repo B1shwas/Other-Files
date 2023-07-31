@@ -1,0 +1,1199 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300&family=Raleway:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter',sans-serif;
+}
+header {
+  width: 100%;
+  height: 4.8em;
+}
+li {
+  list-style-type: none;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding-right: 2.5em;
+  letter-spacing: 0.02em;
+  color: gray;
+}
+ul {
+  display: flex;
+  position: absolute;
+  top: 2em;
+  left: 34em;
+}
+.home {
+  color: #f22225;
+  font-weight: 700;
+}
+.portfolio {
+  position: absolute;
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  left: 12em;
+  top: 1em;
+  letter-spacing: 0.02em;
+}
+.port {
+  color: #f22225;
+}
+.conus {
+  height: 38px;
+  position: absolute;
+  left: 37em;
+  width: 120px;
+  text-align: center;
+  top: -12px;
+  background-color: red;
+  border: none;
+  color: #fafafa;
+  border-radius: 5px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 13px;
+}
+.belownav {
+  background-color: #edf5fe;
+  width: 100%;
+  height: 610px;
+}
+.intro {
+  position: absolute;
+  color: #0f172a;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 3em;
+  letter-spacing: 0.04em;
+  left: 5.83em;
+  top: 5.35em;
+  padding: 0;
+}
+.po {
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  color: #757b82;
+  font-size: 13px;
+  left: 21.8em;
+  top: 30.5em;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+}
+.poo {
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  color: #757b82;
+  font-size: 13px;
+  left: 21.8em;
+  top: 32em;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+}
+.hire {
+  height: 46px;
+  position: absolute;
+  left: 22em;
+  width: 125px;
+  text-align: center;
+  top: 37em;
+  background-color: red;
+  border: none;
+  color: #fafafa;
+  border-radius: 25px;
+  letter-spacing: 0.02em;
+  font-weight: 200;
+  font-size: 13px;
+  margin-left: -10px;
+  padding-right: 25px;
+}
+.line {
+  position: absolute;
+  top: 30.66em;
+  left: 22.4em;
+}
+.vector {
+  position: absolute;
+  top: 31em;
+  left: 23em;
+}
+.e3 {
+  background: rgba(242, 34, 37, 0.1);
+  height: 32em;
+  width: 32em;
+  border-radius: 50%;
+  position: absolute;
+  left: 49em;
+  top: 11em;
+}
+.e2 {
+  background: rgba(242, 34, 37, 0.3);
+  position: absolute;
+  height: 29em;
+  width: 29em;
+  border-radius: 50%;
+  left: 50.5em;
+  top: 12.5em;
+}
+.e1 {
+  background: #f22225;
+  position: absolute;
+  height: 26em;
+  width: 26em;
+  border-radius: 50%;
+  left: 52em;
+  top: 14em;
+}
+.im1 img {
+  position: absolute;
+  height: 36.5em;
+  top: 6.5em;
+  left: 51em;
+}
+.des1 {
+  width: 12em;
+  height: 5em;
+  background: #ffffff;
+  box-shadow: 5px 5px 10px rgba(124, 124, 124, 0.2);
+  border-radius: 20px;
+  position: absolute;
+  left: 46em;
+  top: 31.8em;
+}
+.best {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 0.95em;
+  letter-spacing: 0.02em;
+  color: #000000;
+  left: 5em;
+  top: 0.9em;
+}
+.cir1 {
+  position: absolute;
+  background: #ecf5ff;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  top: 1em;
+  left: 1.5em;
+}
+.helo {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #25282b;
+  font-size: 12px;
+}
+.there {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #f22225;
+  font-size: 12px;
+}
+.hello {
+  position: absolute;
+  top: 15em;
+  left: 20em;
+}
+.dot {
+  position: absolute;
+  height: 0.25em;
+  width: 0.25em;
+  border-radius: 50%;
+  background-color: #f22225;
+  top: 15.52em;
+  left: 19.4em;
+}
+.another_line {
+  position: absolute;
+  height: 0.1em;
+  width: 1.7em;
+  border-radius: 5px;
+  background-color: #f22225;
+  top: 15.6em;
+  left: 17.8em;
+}
+.services {
+  position: relative;
+}
+.servic {
+  position: absolute;
+  left: 11em;
+  top: 2.3em;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #0f172a;
+  white-space: pre-wrap;
+}
+.dot2 {
+  position: absolute;
+  height: 0.3em;
+  width: 0.3em;
+  border-radius: 50%;
+  background-color: #f22225;
+  top: 6.8em;
+  left: 42.85em;
+}
+.another_line2 {
+  position: absolute;
+  height: 0.08em;
+  width: 1.7em;
+  border-radius: 5px;
+  background-color: #f22225;
+  top: 6.88em;
+  left: 41.2em;
+}
+.my_ser {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #25282b;
+  font-size: 12px;
+}
+.my {
+  position: absolute;
+  top: 8.78em;
+  left: 58.25em;
+}
+.servicess {
+  position: absolute;
+  top: 8.78em;
+  left: 60.05em;
+  color: #f22225;
+}
+.uiDesign {
+  height: 17em;
+  width: 17.5em;
+  background-color: #f22225;
+  position: absolute;
+  top: 16.7em;
+  left: 17.75em;
+}
+.mobApp {
+  height: 17em;
+  width: 17.5em;
+  position: absolute;
+  top: 16.7em;
+  left: 36.5em;
+  box-shadow: 10px 10px 20px 8px rgba(147, 147, 147, 0.13);
+}
+.webDes {
+  height: 17em;
+  width: 17.5em;
+  position: absolute;
+  top: 16.7em;
+  left: 54.75em;
+  box-shadow: 10px 10px 20px 8px rgba(147, 147, 147, 0.13);
+}
+.whiteLine {
+  position: absolute;
+  height: 1.7em;
+  width: 0.1em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  top: 13.5em;
+}
+.uiUx {
+  font-family: "inter", sans-serif;
+  color: #ffffff;
+}
+.uiUx1 {
+  font-size: 1.25em;
+  font-weight: 400;
+  position: absolute;
+  top: 5.5em;
+  left: 1em;
+  letter-spacing: 0.02em;
+}
+.uiUx2 {
+  font-size: 0.84em;
+  font-weight: 300;
+  position: absolute;
+  left: 1.55em;
+  top: 11em;
+  letter-spacing: 0.02em;
+  line-height: 1.5em;
+}
+.uiUx3 {
+  font-size: 0.84em;
+  font-weight: 300;
+  position: absolute;
+  left: 1.55em;
+  top: 16.4em;
+  letter-spacing: 0.02em;
+  line-height: 1.4em;
+}
+.uiUx_img img {
+  height: 3em;
+  position: absolute;
+  left: 1.55em;
+  top: 2.5em;
+}
+.redLine {
+  position: absolute;
+  height: 1.7em;
+  width: 0.1em;
+  background-color: #f22225;
+  border-radius: 10px;
+  top: 13.5em;
+}
+.mobileApp {
+  font-family: "inter", sans-serif;
+}
+.mobApp1 {
+  font-size: 1.25em;
+  font-weight: 400;
+  position: absolute;
+  top: 5.5em;
+  left: 1em;
+  color: #0f172a;
+  letter-spacing: 0.02em;
+}
+.mobApp2 {
+  font-size: 0.84em;
+  font-weight: 300;
+  position: absolute;
+  left: 1.55em;
+  top: 11em;
+  color: gray;
+  letter-spacing: 0.02em;
+  line-height: 1.5em;
+}
+.mobApp3 {
+  font-size: 0.84em;
+  font-weight: 300;
+  position: absolute;
+  left: 1.55em;
+  top: 16.4em;
+  color: #f22225;
+  letter-spacing: 0.02em;
+  line-height: 1.4em;
+}
+.mobApp_img img {
+  height: 3em;
+  position: absolute;
+  left: 1.55em;
+  top: 2.5em;
+}
+.redLine2 {
+  position: absolute;
+  height: 1.7em;
+  width: 0.1em;
+  background-color: #f22225;
+  border-radius: 10px;
+  top: 13.5em;
+}
+.webDes {
+  font-family: "inter", sans-serif;
+}
+.webDes1 {
+  font-size: 1.25em;
+  font-weight: 400;
+  position: absolute;
+  top: 5.5em;
+  left: 1em;
+  color: #0f172a;
+  letter-spacing: 0.02em;
+}
+.webDes2 {
+  font-size: 0.84em;
+  font-weight: 300;
+  position: absolute;
+  left: 1.55em;
+  top: 11em;
+  color: gray;
+  letter-spacing: 0.02em;
+  line-height: 1.5em;
+}
+.webDes3 {
+  font-size: 0.84em;
+  font-weight: 300;
+  position: absolute;
+  left: 1.55em;
+  top: 16.4em;
+  color: #f22225;
+  letter-spacing: 0.02em;
+  line-height: 1.4em;
+}
+.webdes_img img {
+  height: 3em;
+  position: absolute;
+  left: 1.55em;
+  top: 2.5em;
+}
+.aboutMe{
+  position: relative;
+  width: 100%;
+  height: 49.8em;
+  top: 35.3em;
+}
+.yourImage{
+  position: absolute;
+  display: flex;
+  left: 17.5em;
+  top: 4.5em;
+
+}
+.aboutMe1 img{
+    height: 24em;
+    padding-right: 1.2em;
+}
+.aboutMe2 img{
+  height: 11.3em;
+  padding-bottom: 1em;
+}
+.aboutMe3 img{
+  height: 11.3em;
+}
+.headPara{
+  position: absolute;
+  top: 7.4em;
+  left: 46.2em;
+}
+.head1in{
+  color: #0F172A;
+  font-family: 'Inter',sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 2.12em;
+  font-weight: 430;
+  line-height: 1.27em;
+}
+.head1{
+  margin-bottom: 1.9em;
+}
+.para1in{
+  font-size: 0.74em;
+  font-weight: 300;
+  color: gray;
+  font-family: 'Inter',sans-serif;
+  letter-spacing: 0.02em;
+  line-height: 1.5em;
+}
+.downloadCVbutton{
+  position: absolute;
+  left: 0em;
+  top: 16.3em;
+}
+.cvButton button{
+  width: 11.7em;
+  height: 3em;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Inter',sans-serif;
+  color: #fafafa;
+  background-color: #F22225;
+  padding-right: 1.5em;
+  font-weight: 400;
+}
+.about {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  color: #25282b;
+  font-size: 12px;
+}
+.me {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  color: #f22225;
+  font-size: 12px;
+}
+.meAbout {
+  position: absolute;
+  top: -1.2em;
+  left: 2.4em;
+}
+.dot3 {
+  position: absolute;
+  height: 0.25em;
+  width: 0.25em;
+  border-radius: 50%;
+  background-color: #f22225;
+   top: -0.7em;
+  left: 1.8em; 
+}
+.another_line3 {
+  position: absolute;
+  height: 0.1em;
+  width: 1.7em;
+  border-radius: 5px;
+  background-color: #f22225;
+  top: -0.63em;
+  left: 0.2em;
+}
+.skill{
+  position: absolute;
+  left: 17.5em;
+  top: 35em;
+  display: flex;
+}
+.graphicDes{
+  height: 13.5em;
+  width: 12em;
+  border: 1px ;
+  box-shadow: 6px 5px 8px 6px rgba(147, 147, 147, 0.13);
+  margin-right: 2em;
+}
+.webDesi{
+  height: 13.5em;
+  width: 12em;
+  border: 1px ;
+  box-shadow: 6px 5px 8px 6px rgba(147, 147, 147, 0.13);
+  margin-right: 2em;
+}
+.brandDes{
+  height: 13.5em;
+  width: 12em;
+  border: 1px ;
+  box-shadow: 6px 5px 8px 6px rgba(147, 147, 147, 0.13);
+  margin-right: 2em;
+}
+.webDev{
+  height: 13.5em;
+  width: 12em;
+  border: 1px ;
+  box-shadow: 6px 5px 8px 6px rgba(147, 147, 147, 0.13);
+}
+.headingTag{
+  position: relative;
+  width: 100%;
+  height: 49.8em;
+  top: 49.2em;
+}
+.heading h3{
+  font-family: 'Inter',sans-serif;
+  font-size: 2.1em;
+  font-weight: 500;
+  position: absolute;
+  top: 3.6em;
+  left: 8.309em;
+  letter-spacing: 0.032em;
+}
+.recen {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  color: #25282b;
+  font-size: 12px;
+}
+.projec {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #f22225;
+  font-size: 12px;
+}
+.tagRecProj{
+  position: absolute;
+  top: 6.42em;
+  left: 20.2em;
+}
+.dot4 {
+  position: absolute;
+  height: 0.25em;
+  width: 0.25em;
+  border-radius: 50%;
+  background-color: #f22225;
+   top: -0.7em;
+  left: 1.8em; 
+}
+.another_line4 {
+  position: absolute;
+  height: 0.1em;
+  width: 1.7em;
+  border-radius: 5px;
+  background-color: #f22225;
+  top: -0.63em;
+  left: 0.2em;
+}
+.before_recProj,.before_CT{
+  position: absolute;
+  top: 7.6em;
+  left: 17.5em;
+}
+.analyticsImage img{
+  width: 17.8em;
+  position: absolute;
+  top: -5.1em;
+  left: 17.5em;
+}
+.threeBoxes{
+  position: relative;
+  height: 25em;
+  top: 18em;
+}
+
+.analyTextBox,.appsTextBox,.webTextBox{
+  position: absolute;
+  width: 17.8em;
+  left: 17.5em;
+  top: 7.772em;
+  height: 11.5em;
+  background-color: white;
+  box-shadow: 6px 5px 8px 6px rgba(147, 147, 147, 0.13);
+}
+.An_UiUx,.branding,.lorem,.viewCase,.mobileApps,.branding2,.lorem2,.viewCase2,.branding3,.lorem3,.viewCase3,.webDevelop{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+}
+.An_UiUx,.mobileApps,.webDevelop{
+  color: #F22225;
+  font-size: 0.74em;
+  font-weight: 400;
+  top: 1.7em;
+  left: 2.3em;
+  font-weight: 500;
+}
+.branding,.branding2,.branding3{
+  color: #0F172A;
+  font-size: 0.93em;
+  top: 2.95em;
+  left: 1.85em;
+  line-height: 1.45em;
+  font-weight: 350;
+  letter-spacing: 0.01em;
+}
+.lorem,.lorem2,.lorem3{
+  color: gray;
+  font-size: 0.668em;
+  letter-spacing: 0.015em;
+  font-weight: 300;
+  line-height: 1.65em;
+  top: 8.81em;
+  left: 2.35em;
+}
+.viewCase,.viewCase2,.viewCase3{
+  color: #F22225;
+  font-size: 0.77em;
+  font-weight: 400em;
+  bottom: 1.5em;
+  left: 2em;
+}
+.bgAnalyticsBox,.bgAppsBox,.bgwebDev{
+  height: 13em;
+  width: 3em;
+  border: 0.5px solid #F22225 ;
+  position: absolute;
+  z-index: -1;
+  top: -12em;
+  left: -0.5em;
+}
+.appsBox{
+  position: absolute;
+  left: 19em;
+}
+.webDevBox{
+  position: absolute;
+  left: 38em;
+}
+.appBoxImage img{
+  width: 18.8em;
+  position: absolute;
+  top: -6.1em;
+  left: 16.5em;
+}
+.webDevImage img{
+  width: 17.8em;
+  position: absolute;
+  top: -5.1em;
+  left: 17.5em;
+}
+.exploreMore{
+  position: absolute;
+  left: 41em;
+  top: 23em;
+}
+.explore button{
+  width: 10em;
+  height: 3em;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Inter',sans-serif;
+  color: #fafafa;
+  background-color: #F22225;
+  font-weight: 400;
+}
+.workExample{
+  position: relative;
+  top: 23em;
+  height: 65em;
+  font-family: 'Inter',sans-serif;
+}
+.workExample .heading,.feedBack .heading,.getInTouch .heading,.blogss .heading{
+  font-size: 2em;
+  font-size: 2.12em;
+  font-weight: 500;
+  position: absolute;
+  top: 1.35em;
+  left: 17.5em;
+  letter-spacing: 0.032em;
+
+}
+.tagWork .my ,.tagClient .client,.tagTouch .Get,.tagblogs .blogss ,.tagblogs .letest{
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  color: #25282b;
+  font-size: 12px;
+  left: 10.2em;
+  top: 1em;
+}
+.tagWork .portfolio,.tagClient .testimonial,.tagTouch .touch,.blogss .blogs {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #f22225;
+  font-size: 12px;
+}
+.tagWork,.tagClient{
+  position: absolute;
+  top: 1.2em;
+  left: 36.5em;
+}
+.before_workExample .dot {
+  position: absolute;
+  height: 0.25em;
+  width: 0.25em;
+  border-radius: 50%;
+  background-color: #f22225;
+   top: -0.7em;
+  left: 1.8em; 
+}
+.before_workExample .another_line{
+  position: absolute;
+  height: 0.09em;
+  width: 1.7em;
+  border-radius: 5px;
+  background-color: #f22225;
+  top: -0.64em;
+  left: 0.2em;
+}
+.before_workExample{
+  position: absolute;
+  top: 3em;
+  left: 41.5em;
+}
+.nav2 li{
+  top: 11em;
+  color: #000000;
+  padding-right: 1.7em;
+  font-size: 0.75em;
+}
+.nav2 ul{
+  display: flex;
+  position: absolute;
+  top: 8.7em;
+  left: 36em;
+  font-weight: 500;
+}
+.nav2 ul .underline{
+  position: absolute;
+  height: 0.1em;
+  width: 1.1em;
+  border-radius: 5px;
+  background-color: #f22225;
+  top: 1.2em;
+  left: -0.09em;
+}
+.sixTables{
+  position: relative;
+  height: 60em;
+  width: 60em;
+  top: 11em;
+  left: 15em;
+  padding-left: 1.7em;
+  padding-top: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.1em;
+  align-content: flex-start;
+}
+.sixTables .motionRect,.eLearning,.visualDes,.businessCard,.mockUp,.webApp{
+  height: 26em;
+  width: 17.5em;
+  box-shadow: 5px 5px 15px 5px rgba(147, 147, 147, 0.13);
+  margin-right: 1.3em;
+  margin-bottom: 2em;
+}
+.motionImg img,.elImg img,.visImg img,.businessImg img,.mockImg img,.webdImg img{
+  width: 16em;
+   margin-left: 0.7em;
+  height: 21.5em;
+  margin-top: 0.7em; 
+}
+.text1{
+  font-size: 0.8em;
+  font-weight: 500;
+   margin-top: 1em;
+  margin-left: 1.3em; 
+  letter-spacing: 0.01em;
+}
+.text2{
+  font-size: 0.75em;
+  color: gray;
+   margin-left: 1.3em;
+  margin-top: 0.7em;
+}
+.feedBack{
+  position:relative;
+  background-color: #F2F6F7;
+  height: 32em;
+  width: 100%;
+  top: 31.5em;
+}
+.feedBack .heading{
+  left: 16em;
+  top: 3.2em;
+}
+.tagClient{
+  top: 5.7em;
+  left: 42.5em;
+}
+.before_CT{
+  position: absolute;
+  top: -9.27em;
+  left: 22.5em;
+}
+.mb1,.mb2{
+  width: 26em;
+  height: 6.4em;
+  border-top: 5px solid #f22225;
+  box-shadow: 0px 0px 2px 2px #ebdfdf;
+  background: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 13em;
+  left: 17.8em;
+
+}
+.mb1 .textt,.mb2 .textt{
+  font-size: 0.7em;
+  color: gray;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.7em;
+  margin-left: 2.5em;
+  margin-top: 1.7em;
+}
+ .mb2{
+  left: 46em;
+ }
+ .mb2 .textt{
+  font-weight: 700;
+ }
+ .triangle{
+ width: 0;
+ height: 0;
+ border-left: 9px solid transparent;
+ border-right: 9px solid transparent;
+ border-bottom: 18px solid #ffffff;
+ transform: rotate(180deg);
+ position: absolute;
+ top: 6em;
+ left: 3.6em;
+ }
+ .doe img,.smith img{
+  width: 3.5em;
+ }
+ .JohnDoe,.adam{
+  color: #0F172A;
+  font-weight: 500;
+  font-size: 0.9em;
+  letter-spacing: 0.01em;
+ }
+ .productDes,.Desi{
+  font-size: 0.6em;
+  color: gray;
+ }
+ .star img{
+  width: 2em;
+ }
+ .avatar{
+  display: flex;
+  position: absolute;
+  top: 8em;
+  left: 2.7em;
+ }
+ 
+.detail{
+  margin-left: 1em;
+  margin-top: 0.4em;
+}
+.adam,.Desi{
+  font-weight: 700;
+}
+.sc2{
+  height: 0.5em;
+  width: 0.5em;
+  border-radius: 50%;
+  background-color: #F22225;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+.sc1,.sc3{
+  height: 0.4em;
+  width: 0.4em;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+}
+.scrollCircle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 28em;
+}
+.contactMe{
+  width: 100%;
+  height: 32em;
+  margin-top: 3.5em;
+  position: relative;
+}
+.getInTouch .heading{
+  top: 3.7em;
+  left: 19.2em;
+}
+.tagTouch{
+  position: absolute;
+  top: 6.8em;
+  left: 43.3em;
+}
+.before_Touch{
+  position: absolute;
+  top: -8.2em;
+  left: 23.2em;
+}
+.getInTouch .line{
+  width: 8em;
+  height: 0.15em;
+  background-color: #F22225;
+  position: absolute;
+  top: 10.6em;
+  left: 40.6em;
+}
+.contact img{
+  position: absolute;
+  bottom: 0em;
+  height: 27.7em;
+  left: 17.5em;
+  width: 19,8em;
+}
+.form{
+  position: absolute;
+  left: 41em;
+  top: 13em;
+
+}
+.phoneSub,.nameMail{
+  display: flex;
+}
+
+#name,#mail,#phone,#subj,#sub{
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1.5px solid #C7C7C7;
+  color: #C7C7C7;
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  padding-bottom: 1em;
+  margin-right: 3.5em;
+  width: 13em;
+  margin-bottom: 1.5em;
+
+}
+#name::placeholder,#mail::placeholder,#phone::placeholder,#subj::placeholder,#sub::placeholder{
+  color: #C7C7C7;
+
+}
+#name{
+  border-bottom: 1.5px solid cornflowerblue;
+}
+#sub{
+  width: 30em;
+}
+.conus2 button{
+  height: 3em;
+  width: 10em;
+  text-align: center;
+  background-color: #F22225;
+  color: white;
+  border: none;
+  padding-right: 1em;
+  margin-top: 3em;
+}
+.letestBlogs{
+  position: relative;
+  width: 100%;
+  height: 45em;
+}
+.blogss .heading{
+  left: 17.3em;
+  top: 3.1em;
+}
+.tagblogs{
+  position: absolute;
+  left: 44em;
+  top: 5.3em;
+}
+.before_lt{
+  position: absolute;
+  top: -9.6em;
+  left: 23.8em;
+}
+.threeBox2{
+  width: 17em;
+  height: 26em;
+  position: absolute;
+  top: 12.5em;
+  left: 17.5em;
+  border-radius: 15px;
+  box-shadow: 6px 5px 8px 6px rgba(147, 147, 147, 0.13);
+}
+.Dav img,.Will img,.Adama img{
+  width: 17em;
+}
+.textIns .redT{
+  color: #F22225;
+  position: absolute;
+  font-size: 0.74em;
+  font-weight: 400;
+  top: 18em;
+  left: 1.9em;
+  font-weight: 500;
+}
+.textIns .headT{
+  color: #0F172A;
+  font-size: 1.2em;
+  position: absolute;
+  top: 12.5em;
+  left: 1.1em;
+  line-height: 1.3em;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.textIns .dolorT{
+  color: gray;
+  font-size: 0.85em;
+  position: absolute;
+  letter-spacing: 0.015em;
+  font-weight: 300;
+  line-height: 1.4em;
+  top: 20.5em;
+  left: 1.5em;
+}
+.textIns .readm{
+  color: #F22225;
+  position: absolute;
+  font-size: 0.9em;
+  font-weight: 500;
+  bottom: 1.5em;
+  left: 1.6em;
+}
+.textIns .day{
+  color: gray;
+  position: absolute;
+  font-size: 0.74em;
+  font-weight: 400;
+  top: 18em;
+  left: 15.5em;
+  font-weight: 500;
+
+}
+.woa{
+  display: flex;
+}
+.threeBox22{
+  width: 17em;
+  height: 26em;
+  position: absolute;
+  top: 12.5em;
+  left: 36.5em;
+  border-radius: 15px;
+  box-shadow: 6px 5px 8px 6px rgba(147, 147, 147, 0.13);
+}
+.threeBox23{
+  width: 17em;
+  height: 26em;
+  position: absolute;
+  top: 12.5em;
+  left: 55.5em;
+  border-radius: 15px;
+  box-shadow: 6px 5px 8px 6px rgba(147, 147, 147, 0.13);
+}
+footer{
+  background-color: #12141E;
+  position: relative;
+  width: 100%;
+  bottom: 0em;
+  height: 22.2em;
+}
+footer .portfolio .folio{
+  color: white;
+  font-size: 1.2em;
+}
+footer .portfolio .port{
+  font-size: 1.2em;
+}
+footer .portfolio{
+  margin-left: 17.6em;
+  top: 3em;
+}
+.nav-item{
+  text-decoration: none;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 300;
+  margin: 12em 1em;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.nav-separator {
+  border-left: 1px solid #514971;
+  margin: 0 5px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: #f22225;
+  margin-right: 13px;
+  color: white;
+  margin-top: -7em;
+}
+.hline {
+  border: none;
+  border-top: 1px solid #514971;
+  margin: 5px auto;
+  width: 70%;
+}
+

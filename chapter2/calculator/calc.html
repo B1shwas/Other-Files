@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <style>
+        .calculator {
+            width: 200px;
+            padding: 10px;
+            background-color: #f2f2f2;
+        }
+
+        .calculator input[type="text"] {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .calculator button {
+            width: 48%;
+            padding: 5px;
+            margin: 2px;
+            font-size: 18px;
+        }
+
+        .s89,
+        .f56,
+        .o23,
+        .c,
+        .banyo {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .s89,
+        .f56,
+        .o23,
+        .c,
+        .remaining {
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="result" />
+        <div class="banyo">
+            <div class="p1">
+                <div class="s89">
+                    <button onclick="show('7')">7</button>
+                    <button onclick="show('8')">8</button>
+                    <button onclick="show('9')">9</button>
+                </div>
+                <div class="f56">
+                    <button onclick="show('4')">4</button>
+                    <button onclick="show('5')">5</button>
+                    <button onclick="show('6')">6</button>
+                </div>
+                <div class="o23">
+                    <button onclick="show('1')">1</button>
+                    <button onclick="show('2')">2</button>
+                    <button onclick="show('3')">3</button>
+                </div>
+                <div class="c">
+                    <button onclick="show('0')">0</button>
+                    <button onclick="show('.')">.</button>
+                    <button onclick="clearResult()">C</button>
+                </div>
+            </div>
+            <div class="remaining">
+                <button onclick="show('+')">+</button>
+                <button onclick="show('-')">-</button>
+                <button onclick="show('*')">*</button>
+                <button onclick="answer()">=</button>
+                <button onclick="show('/')">/</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function show(value) {
+            document.getElementById("result").value += value;
+        }
+
+        function answer() {
+            var result = eval(document.getElementById("result").value);
+            document.getElementById("result").value = result;
+        }
+
+        function clearResult() {
+            document.getElementById("result").value = "";
+        }
+    </script>
+</body>
+
+</html>

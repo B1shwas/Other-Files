@@ -1,0 +1,41 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Raleway:wght@100&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@100&display=swap');
+.container{
+    max-width: 300px;
+    margin-left: 4 50px;
+    margin-top: 50px;
+    border-top: 5px solid #009578;
+    border-bottom: 5px solid #009578;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+#todayWork{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    flex-grow: 1;
+
+}
+.list:has(#check:checked){
+    color: #555555;
+    background:#eeeeee;
+    text-decoration: line-through;
+    order: 1;
+
+}

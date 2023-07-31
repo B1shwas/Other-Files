@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fan{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    /* animation-name: spin; */
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.blade{
+    height: 100px;
+    width: 220px;
+    background-color: black;
+    position: absolute;
+    border-radius: 0 200px 160px 360px;
+    top: 35%;
+    left: 35%;
+}
+.blade:nth-child(1){
+    top: 215px;
+    left: 280px;
+
+}
+.blade:nth-child(2){
+    top: 295px;
+    left: 45px;
+    transform: rotate(120deg);
+}
+.blade:nth-child(3){
+    transform: rotate(240deg);
+    top: 65px;
+    left: 120px;
+}
+.fan-body{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+button{
+    position: absolute;
+    bottom: 60px;
+    left: 200px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:nth-child(1){
+    left: 100px;
+}
+button:nth-child(2){
+    left: 150px;
+}
+button:nth-child(3){
+    left: 363px;
+}
+button:nth-child(4){
+    left: 420px;
+}
+button:nth-child(5){
+    left: 480px;
+}
+button:hover{
+    background-color: blanchedalmond;
+}
+

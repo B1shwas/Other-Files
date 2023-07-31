@@ -1,0 +1,500 @@
+/* Media Queries for Responsiveness */
+
+@media (max-width: 992px) {
+    .form-control {
+      width: 12rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .form-control {
+      width: 9rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .form-control {
+      width: 6rem;
+    }
+  }
+  @media (max-width: 642px) {
+    .navbar-brand img{
+      margin-left: 1rem;
+    }
+  }
+@media (max-width:1238px){
+    .heading{
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+    .more{
+      margin-top: 2rem;
+      margin-left: 1rem;
+    }
+    .allcup{
+      height: 20rem;
+    }
+  }
+  @media (max-width:1016px){
+    .heading{
+      font-size: 1.7rem;
+      line-height: 3rem;
+    }
+    .more{
+      margin-top: 2rem;
+      margin-left: 1rem;
+    }
+    .allcup{
+      height: 15rem;
+    }
+  }
+  @media (max-width:724px){
+    .allcup{
+      height: 20rem;
+      margin-left: 0rem;
+    }
+    .heading{
+      text-align: center;
+    }
+    .para1{
+       text-align: center;
+       white-space: nowrap;
+       overflow: hidden;
+       text-overflow: ellipsis;
+     }
+     .flex1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+     }
+     .more{
+      margin-left: -1.5rem;
+     }
+    }
+    @media (max-width:510px){
+      .allcup{
+        height: 15rem;
+        margin-left: 3rem;
+      }
+    }
+    @media (max-width:394px){
+      .allcup {
+        height: 10rem;
+        position: relative;
+        margin-top: 4rem;
+        margin-left: 3rem;
+      }
+      
+      .allcup img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .heading{
+        font-size: 1.4rem;
+        margin-top: -2rem;
+      }
+      .para1{
+        font-size: 0.9rem;
+      }
+    }
+    @media(max-width:290px){
+      .allcup {
+        height: 10rem;
+        position: relative;
+        margin-top: 4rem;
+        margin-left: 0px;
+      }
+      
+      .allcup img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+@media (max-width: 768px) {
+    .whitebg, .blurBg {
+      max-width: 100%;
+    }
+  }
+  @media (max-width:1226px){
+    .thirdcup{
+      margin-top: 27rem;
+      margin-left: -47rem;
+    }
+  }
+  @media (max-width:848px){
+    .seccup{
+      margin-top: 27rem;
+      margin-left: -24rem;
+    }
+    .thirdcup{
+      margin-top: 54rem;
+      margin-left: -24rem;
+    }
+    .cupbg{
+      display: none;
+    }
+  }
+  @media (max-width:867px){
+    .popular{
+      margin-top: 0rem;
+    }
+  }
+  @media (max-width:445px){
+    .blurBg{
+      width: 20rem;
+    }
+    .cup1 img{
+      width: 18rem;
+    }
+    .seccup{
+      margin-left: -21.5rem;
+    }
+    .thirdcup{
+      margin-left: -21.5rem;
+    }
+  }
+  @media (max-width:990px){
+    .howTo{
+        text-align: center;
+    }
+    .firstHow,.secHow,.thirdHow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  }
+  @media (max-width:1200px){
+    .aboutUs{
+      margin-top: 15rem;
+    }
+  }
+  @media (max-width:992px){
+    .aboutUs{
+      margin-top: 36rem;
+    }
+    .aboutImg img{
+      height: 20rem;
+    }
+    .aboutImg{
+      height: 21rem;
+      width: 15rem;
+      margin-left: -3rem;
+    }
+    .insideText{
+      margin-top: -2rem;
+      margin-left: -2rem;
+    }
+  }
+  @media (max-width:768px){
+    .bg3line{
+      text-align: center;
+    }
+    .bg3line2{
+      text-align: center;
+    }
+    .getYour{
+      display: flex;
+      justify-content: center;
+    }
+    .aboutImg{
+      display: none;
+    }
+  }
+  @media (max-width:446px){
+    .cstar img{
+      display: none;
+    }
+  }
+  @media (max-width: 521px){
+     .bg3line{
+      font-size: 1.1rem;
+     }
+     .bg3line2{
+      font-size: 0.9rem;
+     }
+     .howTo{
+      font-size: 1.5rem;
+     }
+  }
+  @media (max-width:367px){
+    .frstcup,.seccup,.thirdcup{
+      width: 18rem;
+
+    }
+    .cupInside{
+      width: 17rem;
+    }
+    .cup1{
+      width: 17rem;
+    }
+    .seccup{
+      margin-left: -18rem;
+    }
+    .thirdcup{
+      margin-left: -17.5rem;
+    }
+    .bg2{
+      width:10rem
+    }
+  }
+  @media(max-width:280px){
+    .frstcup{
+      margin-left: -2rem;
+    }
+    .frstcup,.seccup,.thirdcup{
+      width: 15rem;
+    }
+    .cupInside{
+      width: 13rem;
+    }
+    .cup1{
+      width: 13rem;
+    }
+    .seccup{
+      margin-left: -14.5rem;
+    }
+    .thirdcup{
+      margin-left: -15.5rem;
+    }
+  }
+  @media(max-width:340px){
+    .sandwich .cup1,.sec-cappucino .cup1,.milk .cup1,.sec-maccucino .cup1,.sec-waffle .cup1{
+      width: 13.5rem;
+    }
+  }
+  @media(max-width:1216px){
+    .sec-milk,.sec-maccucino{
+      margin-left: 12rem;
+    }
+    .sec-ice{
+      margin-top: 55rem;
+      margin-left: -40rem;
+    }
+    .sec-waffle{
+      margin-top: -26rem;
+      margin-left: -8rem;
+    }
+  }
+  @media (max-width:991px){
+    .sandwich,.sec-cappucino{
+      margin-left: -5rem;
+    }
+    .sec-milk,.sec-maccucino{
+      margin-left: 5rem;
+      width: 20rem;
+    }
+    .coffeeice{
+      margin-left: 5rem;
+    }
+    .sec-waffle{
+      margin-left: -10rem;
+    }
+  }
+  @media(max-width:758px){
+    .sec-milk,.sec-maccucino{
+      margin-left: -5rem;
+    }
+    .sec-ice{
+      margin-top: 2rem;
+      margin-left: 5rem;
+    }
+    .sec-waffle{
+      margin-top: 4rem;
+      margin-left: -5rem;
+    }
+    .coffeeice{
+      margin-left: -10rem;
+    }
+  }
+  @media (max-width:707px){
+    .sec-milk,.sec-cappucino,.sandwich{
+      width: 20rem;
+      height: 15rem;
+      margin-left: 5rem;
+      margin-bottom: 10rem;
+    }
+    .coffeeice,.sec-maccucino,.sec-waffle{
+      width: 20rem;
+      height: 15rem;
+      margin-left: 5rem;
+    }
+    .coffeeice{
+      margin-top: 10rem;
+      margin-left: 0rem;
+    }
+    .sec-waffle{
+      margin-top: 10rem;
+    }
+    .sec-ice .cup1{
+      max-width: 10rem;
+    }
+    .van{
+      width: 13rem;
+    }
+  }
+  @media(max-width:423px){
+    .sec-cappucino,.sec-ice,.sec-milk,.sec-waffle,.sec-maccucino,.sandwich{
+      margin-left: 0rem;
+    }
+  }
+  @media(max-width:332px){
+    .sec-cappucino,.coffeeice,.sec-milk,.sec-waffle,.sec-maccucino,.sandwich{
+      width: 14rem;
+      margin-left: 1rem;
+    }
+  }
+  @media (max-width:336px) {
+    .frstcup,.seccup,.thirdcup{
+      width: 13rem;
+    }
+    .cupInside{
+      width: 12rem;
+    }
+    .cup1{
+      width: 12rem;
+    }
+    .seccup{
+      margin-left: -13rem;
+    }
+    .thirdcup{
+      margin-left: -13rem;
+    }
+  }
+  @media (max-width:1478px){
+    .azura{
+      margin-top: -10rem;
+      margin-left: 0rem;
+    }
+  }
+  @media (max-width:1192px){
+    .women{
+      margin-top: 40rem;
+      margin-left: -20rem;
+    }
+    .john{
+      margin-top: 40rem;
+      margin-left: -15rem;
+    }
+  }
+  @media (max-width:772px){
+    .women{
+      margin-top: 40rem;
+      margin-left: -10rem;
+    }
+    .john{
+      margin-top: 60rem;
+      margin-left: -22rem;
+    }
+    .azura{
+      margin-top: -13rem;
+      margin-left: -10rem;
+    }
+  }
+  @media (max-width:730px){
+    .women{
+      margin-top: -5rem;
+      margin-left: 10rem;
+    }
+    .john{
+      margin-top: -10rem;
+      margin-left: 10rem;
+    }
+    .azura{
+      margin-top: -10rem;
+      margin-left: 10rem;
+    }
+  }
+  @media(max-width:314px){
+    .women{
+      margin-left: 7rem;
+    }
+    .john{
+      margin-left: 7rem;
+    }
+    .azura{
+      margin-left: 7rem;
+    }
+  }
+  @media (max-width:2800px){
+    .endfoot{
+      margin-left: 50rem;
+    }
+    .subemail{
+      margin-left: -45rem;
+    }
+
+  }
+  @media (max-width:2370px){
+    .endfoot{
+      margin-left: 30rem;
+    }
+    .subemail{
+      margin-left: -20rem;
+    }
+  }
+
+
+@media (max-width:1652px){
+  .subemail{
+    margin-left: 10rem;
+  }
+  .endfoot{
+    margin-left: 5rem;
+  }
+} 
+@media (max-width:1113px){
+  .sub{
+    text-align: center;
+  }
+  .subemail{
+    margin-left: 2rem;
+  }
+} 
+@media (max-width:821px){
+  .sub h2{
+    font-size: 1.2rem;
+  }
+  .email input{
+    width: 15rem;
+  }
+}
+@media (max-width:499px){
+  .sub h2{
+    font-size: 1.1rem;
+  }
+  .email input{
+    width: 13rem;
+  }
+}
+@media (max-width:430px){
+  .sub h2{
+    font-size: 1.1rem;
+  }
+  .email input{
+    width: 10rem;
+  }
+  .email button{
+      display: none;
+  
+  }
+}
+@media (max-width:375px){
+  .endfoot2{
+    margin-left: 0rem;
+  }
+  .sub h1{
+    font-size: 0.6rem;
+  }
+
+}
+
+
+
+
+

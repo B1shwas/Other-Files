@@ -1,0 +1,571 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-control-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.form-control {
+  padding-left: 3rem;
+  border-radius: 20px;
+  border: none;
+  width: 15rem;
+}
+
+.simg,
+.iconshop {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.simg {
+  left: 0.8rem;
+}
+
+.iconshop {
+  right: 1.2rem;
+}
+.form-control::placeholder {
+  color: #929292;
+  font-size: 0.8rem;
+}
+.navbar-expand-lg {
+  background-color: #f6ebda;
+  height: 7rem;
+}
+.nav-item {
+  margin-left: 1rem;
+}
+.navbar-nav .nav-link:hover {
+  color: #ff902b;
+}
+.navbar-brand img {
+  margin-left: 7.45rem;
+  margin-top: 0.1rem;
+}
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("./section/hamb.jpeg");
+}
+
+.navbar-toggler-icon:after,
+.navbar-toggler-icon:before {
+  background-color: black;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff902b;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 4.5rem;
+  margin-left: -2rem;
+  padding-top: 6.5rem;
+}
+.heading span {
+  color: #ff902b;
+}
+.para1 {
+  color: #7e7d7a;
+  margin-left: -2rem;
+  font-size: 1.1rem;
+  margin-top: 1.6rem;
+}
+
+.order {
+  background-color: #2f2105;
+  color: white;
+  width: 11rem;
+  height: 3rem;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  margin-left: -2rem;
+  margin-top: 1rem;
+  border: none;
+}
+.gap {
+  margin-left: 0.5rem;
+}
+
+.more {
+  color: #f4ae26;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-top: -1.9rem;
+  margin-left: 11rem;
+}
+.enjoyyy {
+  background-color: #f6ebda;
+  width: 100%;
+  height: 55rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.allcup {
+  height: 25rem;
+  margin-top: 4rem;
+  margin-left: 3rem;
+}
+
+.popular,
+.howTo {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 4%;
+  margin-top: -20rem;
+  margin-left: 8rem;
+  letter-spacing: 0.04em;
+}
+.popular span,
+.howTo span {
+  text-decoration: underline;
+  text-decoration-color: #ff902b;
+  text-decoration-thickness: 4px;
+}
+
+.whitebg {
+  background-color: white;
+  width: 21.3rem;
+  height: 24.3rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+.blurBg {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 22rem;
+  height: 25rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 02rem;
+  margin-left: 1.5rem;
+  box-shadow: 10px 10px 32px 0px #00000040;
+}
+.blurBg:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.howDeliver {
+  max-width: 100%;
+  height: 30rem;
+}
+.cup1 {
+  height: 14rem;
+  width: 19.7rem;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+.frstcup .cup1 {
+   background-image: url('./section/cup1.png');
+}
+.seccup .cup1 {
+  background-image: url("./section/cup2.png");
+}
+.thirdcup .cup1 {
+  background-image: url("./section/cup3.png");
+}
+.for4 {
+  background: white;
+  height: 1.9rem;
+  width: 3.6rem;
+  border-radius: 65px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9rem;
+  font-weight: 500;
+  align-items: center;
+}
+.for4 img {
+  height: 1rem;
+}
+.for4i {
+  background: rgba(255, 255, 255, 0.3);
+  height: 2.2rem;
+  width: 3.9rem;
+  border-radius: 65px;
+  margin-top: 0.8rem;
+  margin-left: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cupInside {
+  display: flex;
+  flex-direction: column;
+}
+.van {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+}
+.secline {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.secline2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.buttons {
+  display: flex;
+}
+.button-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.hot button {
+  border: 3px solid #ff902b;
+  background: transparent;
+  color: #ff902b;
+  font-size: 1rem;
+  width: 4rem;
+  border-radius: 10px;
+  height: 2rem;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+.cold button {
+  border: 3px solid #ffd28f;
+  background: transparent;
+  color: #ffd28f;
+  font-size: 1rem;
+  width: 4rem;
+  border-radius: 10px;
+  height: 2rem;
+  font-weight: 500;
+}
+
+.everyCup {
+  display: flex;
+}
+.cupbg {
+  height: 20rem;
+  max-width: 85%;
+  background-color: #f9d9aa;
+  border-radius: 70px;
+  margin-top: -15rem;
+  margin-left: 7.5rem;
+}
+.howTo {
+  margin-top: 6rem;
+  margin-left: 10rem;
+}
+.bg2 {
+  width: 22rem;
+  height: 17rem;
+  margin-top: 2.5rem;
+  margin-left: -4rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: -1rem;
+}
+.bg2line {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #2f2105;
+  margin-bottom: 0.5rem;
+}
+.bg3line{
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #2f2105;
+  margin-bottom: 0.5rem;
+}
+.bg4line{
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #2f2105;
+  margin-bottom: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+.bg2line2{
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+.bg3line2{
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  font-weight: 400;
+  color: #7E7D7A;
+  font-size: 1.14rem;
+  margin-left: 0rem;
+  line-height: 1.7rem;
+
+}
+.bg4line2{
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-weight: 400;
+  color: #7E7D7A;
+  font-size: 1rem;
+  margin-left: 0rem;
+  line-height: 1.7rem;
+
+}
+.bg2Img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.aboutBg{
+  height: 32rem;
+  background-color: #F6EBDA;
+  max-width: 100%;
+}
+.aboutImg{
+  background-color: white;
+  height: 31.5rem;
+  width: 23rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 6px 16px 0px #00000029;
+  margin-top: -4rem;
+  margin-left: 4.4rem;
+}
+.aboutImg img{
+  border-radius: 5px;
+}
+.insideText .howTo{
+  margin-left: 0rem;
+  margin-bottom: 2rem;
+}
+.bg3line{
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.02em;
+}
+.getYour button{
+  background-color: #2f2105;
+  color: #F4AE26;
+  width: 9rem;
+  height: 2.5rem;
+  border-radius: 30px;
+  font-size: 0.7rem;
+  margin-left: 0rem;
+  margin-top: 2rem;
+  border: none;
+}
+.insideText{
+  margin-left: 2rem;
+  margin-top: -1rem;
+}
+.specialMenu{
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 4%;
+  margin-top: -20rem;
+  margin-left: 8rem;
+  letter-spacing: 0.02em;
+  margin-top: 10rem;
+}
+.specialMenu span{
+  text-decoration: underline;
+  text-decoration-color: #ff902b;
+  text-decoration-thickness: 4px;
+}
+.sandwich .whitebg,.sec-cappucino .whitebg,.sec-milk .whitebg,.sec-maccucino .whitebg,.coffeeice .whitebg,.sec-waffle .whitebg{
+  box-shadow: 0px 6px 16px 0px #00000029;
+}
+.sandwich .cup1{
+  background-image: url('./section/sandwich.png');
+  width: 18rem;
+}
+.coffeeice .cup1{
+  background-image: url('./section/cream.png');
+}
+.detail{
+  color: #7E7D7A;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.sec-cappucino .cup1{
+  background-image: url('./section/seccap.png');
+  width: 18rem;
+}
+.sec-sandwich,.sec-milk,.sec-ice{
+  margin-top: 2rem;
+}
+.sandwich,.milk,.coffeeice{
+  margin-bottom: 2rem;
+}
+.sec-milk .cup1{
+  background-image: url('./section/dudh.png');
+  width: 18rem;
+}
+.sec-maccucino .cup1{
+  width: 18rem;
+  background-image: url('./section/mocca.png');
+}
+.sec-waffle .cup1{
+  width: 18rem;
+  background-image: url('./section/waffle.png');
+
+}
+.whatThey{
+  margin-top: 21rem;
+}
+
+.box{
+  height: 18.3rem;
+  width: 13.5rem;
+  margin-top: 15rem;
+  margin-left: -8rem;
+  background-image: url('./section/women.png');
+  background-repeat: no-repeat;
+  position: relative;
+}
+.insideBox{
+  background-color: #FFD3909E;
+  width: 14rem;
+  height: 5.5rem;
+  border-radius: 10px;
+  margin-left: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 11rem;
+
+  
+}
+.content{
+  width: 13.5rem;
+  height: 5rem;
+  background-color: #FFCB7C;
+  border-radius: 10px;
+}
+.content h4{
+  font-size: 1.1rem;
+  color: #2F2105;
+  letter-spacing: 0.02em;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+.content p{
+  font-size: 0.8rem;
+  color: #2F2105;
+  letter-spacing: 0.02em;
+  margin-left: 1rem;
+
+}
+.john .box{
+  background-image: url('./section/john.png');
+  background-repeat: no-repeat;
+  width: 15rem;
+}
+.azura .box{
+  background-image: url('./section/azura.png');
+  background-repeat: no-repeat;
+  width: 15rem;
+
+}
+.azura{
+  margin-top: -33.5rem;
+  margin-left: 37rem;
+}
+ .bg-forC{
+  max-width: 70%;
+  height: 30rem;
+  background-color: #F6EBDA;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: -40em;
+}
+.endfoot {
+  max-width: 100%;
+  height: 40em;
+  margin-top: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.endfoot2 {
+  background-image: url(./section/footer2.png);
+  width: 80%;
+  height: 30em;
+  border-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -6rem;
+}
+
+.endfoot2 h2 {
+  color: white;
+
+}
+
+.subemail {
+  display: flex;
+  flex-direction: column;
+  margin-left: -8rem;
+}
+
+.email input {
+  width: 30rem;
+  height: 2.5rem;
+  border-radius: 70px;
+  border: none;
+  outline: none;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.email input::placeholder {
+  padding-left: 2rem;
+  font-weight: 600;
+}
+
+.email button {
+  background-color: #2f2105;
+  box-shadow: 0px 4px 32px 0px #dfc37c40;
+  border: none;
+  border-radius: 70px;
+  color: white;
+  height: 2.2rem;
+  font-size: 0.7rem;
+  width: 5rem;
+  margin-left: -5.5rem;
+}
+

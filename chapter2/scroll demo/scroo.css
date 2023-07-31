@@ -1,0 +1,260 @@
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 20px;
+    color: rgb(51, 51, 177);
+    font-family: "copperplate";
+    font-size: 22px;
+}
+nav{
+   margin-top: 15px;
+}
+
+a:hover {
+    font-size: 25px;
+    color: rgb(178, 61, 61);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.Top img {
+    width: 100px;
+}
+
+.Top {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(51, 51, 177), rgb(178, 61, 61), #FFDE00);
+    border: none;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.image {
+    text-align: center;
+    background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,w_6530,h_3673,x_0,y_5/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01g65xk2fqrv7sx79ww5.jpg");
+    height: 800px;
+}
+
+.Text h1 {
+    font-size: 80px;
+    padding-top: 160px;
+    font-family: "Montserrat", sans-serif;
+    color: #A50044;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    cursor: default;
+    opacity: 1;
+}
+
+.Text pre {
+    font-size: 30px;
+    color: #FFDE00;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 5px;
+    cursor: default;
+
+}
+
+.learn button {
+    /* Modify the button properties as desired */
+    background-color: transparent;
+    color: yellow;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: solid;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.learn button:hover {
+    background-color: #A50044;
+    color: #FFFFFF;
+    border: #A50044;
+}
+
+.signup button {
+    /* Modify the button properties as desired */
+    background-color: #A50044;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: solid #A50044;
+    ;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.mid p {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.a1 {
+    font-size: 32px;
+    color: #A50044;
+}
+
+.a2 {
+    font-size: 48px;
+    color: #FFD700;
+
+}
+
+.ablau {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.img1 {
+    width: 350px;
+
+}
+
+
+.img2 {
+    width: 400px;
+    margin-left: 30px;
+}
+
+.img3 {
+    width: 374px;
+    margin-left: 30px;
+
+
+}
+
+
+.His-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.img1:hover p2,
+.img2:hover p2,
+.img3:hover p2 {
+    opacity: 1;
+}
+
+.img1 p2,
+.img2 p2,
+.img3 p2 {
+    margin-left: 0px;
+    margin-top: 0px;
+    color: black;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: "Montserrat", sans-serif;
+}
+.img1 p1,
+.img2 p1,
+.img3 p1 {
+    margin-left: 0px;
+    margin-top: 0px;
+    color: black;
+    font-size: 18px;
+    opacity: 1;
+    font-family: "Montserrat", sans-serif;
+}
+.img1:hover p1,
+.img2:hover p1,
+.img3:hover p1 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.img1 img,.img2 img,.img3 img{
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+.img1 img:hover,.img2 img:hover,.img3 img:hover{
+    height: 260px;
+}
+.Trophy img{
+    width: 100%;
+}
+.ucl,.fwc,.ecw,.esp,.cdl{
+    margin-top: 30px;
+    height: 150px;
+    width: 700px;
+    margin-left: 400px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    text-align: center;
+}
+.ucl img,.fwc img,.ecw img,.esp img,.cdl img{
+    height: 150px;
+}
+.ucl2 p,.fwc2 p,.ecw2 p,.esp2 p,.cdl2 p{
+    margin-top: 30px;
+    padding-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.other {
+    margin-top: 10px;
+  }
+  
+
+  
+  .other ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .other li {
+    margin-bottom: 8px;
+    color: black;
+    font-family:  "Montserrat", sans-serif;
+    font-size: 18x;
+    line-height: 1.4;
+    font-weight: bold;
+  }
+  .all{
+    display: flex;
+    justify-content: space-between;
+  }
+  .copa img{
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+  .supercopa img{
+    height: 230px;
+    padding-top: 100px ;
+    padding-right: 50px;
+  }
+  

@@ -1,0 +1,127 @@
+.Profile img{
+    height: 300px;
+    border: none;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.Contact img{
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.Contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.Contact p{
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 20px;
+}
+.Mail img{
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.Mail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.Mail p{
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 20px;
+}
+.Location img{
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.Location{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.Location p{
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 20px;
+}
+
+h2{
+    margin-left: 700px;
+    padding-top: 20px;
+    font-family: cursive;
+    font-size: 53px;
+}
+h3{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Skill li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    margin-left: 30px;
+    
+}
+.ExCurricular li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+    
+}
+
+.Profile p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    padding-left: 350px;
+    padding-right: 40px;
+
+}
+.Profile h3{
+    padding-left: 150px;
+}
+.Profile{
+    display: flex;
+}
+.Statement h3{
+    margin-left: 200px;
+}
+.A{
+    display: flex;
+}
+.Education{
+    padding-left: 345px;
+}
+
+.Education p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    padding-left: 50px;
+}
+.B{
+    display: flex;
+}
+.Experience h3{
+padding-left: 200px;
+}
+.Experience p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    padding-left: 200px;
+}
+.Whole{
+    background-color: rgb(253, 251, 251);
+    border: solid;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+}

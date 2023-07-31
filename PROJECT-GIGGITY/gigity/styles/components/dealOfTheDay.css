@@ -1,0 +1,6 @@
+.deal__day h3{
+    font-size: var(--size-3xl);
+    font-weight: 500;
+    text-transform: uppercase ;
+    letter-spacing: 0.3rem;
+}

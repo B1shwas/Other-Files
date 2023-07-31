@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e3cdcd;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: #324aea;
+  border: 3px solid #ccc;
+  border-radius: 20px;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.container label {
+  font-weight: bold;
+  color: white;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.container input[type="submit"] {
+  background-color: #4CAF50;
+  color: #e0d1d1;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container input[type="submit"]:hover {
+  background-color: #45a049;
+
+}
+
+.container p {
+  text-align: center;
+
+}
+
+.container a {
+  color: #c7dec7;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: #67b383
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #324aea;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar li a {
+  display: flex;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+
+}
+
+.navbar li a:hover {
+color: #9fa4e7;
+}
+
+.navbar li img {
+  height: 40px;
+  width: auto;
+}
